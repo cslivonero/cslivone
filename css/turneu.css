@@ -35,11 +35,23 @@
   --font-nav: 'Inter', sans-serif;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .tnv-page {
   font-family: var(--font-body);
   color: var(--ink-700);
   background: var(--white);
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .tnv-page * {
@@ -81,6 +93,10 @@
   justify-content: space-between;
   height: 80px;
   gap: 24px;
+}
+
+.tnv-header__logo {
+  flex-shrink: 0;
 }
 
 .tnv-header__logo img {
@@ -153,6 +169,8 @@
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
   box-shadow: 0 4px 10px rgba(11, 22, 59, 0.25);
 }
 
@@ -167,6 +185,8 @@
   font-size: 22px;
   color: var(--nav-active);
   cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
 }
 
 /* ---------------- Generic section helpers ---------------- */
@@ -1188,6 +1208,15 @@
 /* ---------------- Responsive ---------------- */
 
 @media (max-width: 992px) {
+  .tnv-header__inner {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .tnv-header__actions {
+    gap: 8px;
+  }
+
   .tnv-nav {
     position: absolute;
     top: 80px;
@@ -1239,6 +1268,16 @@
 }
 
 @media (max-width: 640px) {
+  .tnv-header__logo img {
+    height: 44px;
+  }
+
+  .tnv-phone-cta {
+    padding: 8px 12px;
+    font-size: 11px;
+    gap: 6px;
+  }
+
   .tnv-hero__content {
     padding: 64px 20px 56px;
   }
