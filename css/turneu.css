@@ -64,9 +64,9 @@ body {
 }
 
 .tnv-container {
-  max-width: 1232px;
+  max-width: 1216px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 .tnv-container--narrow {
@@ -85,9 +85,9 @@ body {
 }
 
 .tnv-header__inner {
-  max-width: 1232px;
+  max-width: 1216px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -254,9 +254,9 @@ body {
 
 .tnv-hero__content {
   position: relative;
-  max-width: 1232px;
+  max-width: 1216px;
   margin: 0 auto;
-  padding: 100px 24px 90px;
+  padding: 100px 32px 90px;
 }
 
 .tnv-hero__inner {
@@ -643,7 +643,7 @@ body {
 
 .tnv-prizes__inner {
   position: relative;
-  max-width: 1232px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
@@ -1226,7 +1226,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-    padding: 8px 24px 16px;
+    padding: 8px 16px 16px;
     border-bottom: 1px solid var(--border-200);
     box-shadow: 0 12px 24px rgba(16, 24, 40, 0.08);
     display: none;
