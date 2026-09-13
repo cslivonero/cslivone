@@ -1004,6 +1004,83 @@ body {
   color: var(--ink-700);
 }
 
+/* ---------------- Sponsori si parteneri ---------------- */
+
+.tnv-partners {
+  padding: 0 24px 96px;
+  background: var(--white);
+}
+
+.tnv-partners__inner {
+  max-width: 952px;
+  margin: 0 auto;
+}
+
+.tnv-partners__group {
+  margin-bottom: 32px;
+}
+
+.tnv-partners__group:last-child {
+  margin-bottom: 0;
+}
+
+.tnv-partners__group-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-700);
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.tnv-partners__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tnv-partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 200px;
+  height: 96px;
+  padding: 16px 32px;
+  background: var(--surface-100);
+  border: 1px solid var(--border-200);
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(16, 24, 40, 0.04);
+  text-decoration: none;
+}
+
+.tnv-partner-card img {
+  max-width: 100%;
+  max-height: 56px;
+  object-fit: contain;
+}
+
+.tnv-partner-card--plain {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.tnv-partner-card__url {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--ink-700);
+  transition: color 0.2s ease;
+}
+
+.tnv-partner-card--plain:hover .tnv-partner-card__url {
+  color: var(--lime-mid);
+}
+
 /* ---------------- Contact / Inscriere ---------------- */
 
 .tnv-contact {
